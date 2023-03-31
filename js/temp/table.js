@@ -20,6 +20,7 @@ export let isiTabel = `
         <p class="text-xs font-medium text-coolGray-500">#DOSEN#</p>
         </div>
     </th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-center">#HADIR#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-center">#TUGAS1#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#TUGAS2#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-#col#-500 text-left">#TUGAS3#</th>
