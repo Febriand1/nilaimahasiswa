@@ -9,7 +9,7 @@ function isiRow(value) {
     .replace("#NPM#", value.absensi.biodata.npm)
     .replace("#NAMA#", value.absensi.biodata.nama)
     .replace("#MATAKULIAH#", value.kategori.nama_mk)
-    .replace("#DOSEN#", value.pengampu.namadosen)
+    .replace("#DOSEN#", value.kategori.pengampu.namadosen)
     .replace("#TUGAS1#", value.alltugas.tugas1)
     .replace("#TUGAS2#", value.alltugas.tugas2)
     .replace("#TUGAS3#", value.alltugas.tugas3)
