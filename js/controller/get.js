@@ -8,7 +8,7 @@ function isiRow(value) {
   let content = isiTabel
     .replace("#NPM#", value.absensi.biodata.npm)
     .replace("#NAMA#", value.absensi.biodata.nama)
-    .replace("#NOHP#", value.absensi.biodata.phonenumber)
+    .replace("#NOHP#", value.absensi.biodata ? value.absensi.biodata.phonenumber : "#NOHP#")
     .replace("#MATAKULIAH#", value.kategori.nama_mk)
     .replace("#DOSEN#", value.kategori.pengampu.namadosen)
     .replace("#NOHPD#", value.kategori.pengampu.phonenumberd)
