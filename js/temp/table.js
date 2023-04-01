@@ -11,6 +11,7 @@ export let isiTabel = `
             <div class="w-auto p-2">
                 <p class="text-xs font-semibold text-coolGray-800">#NPM#</p>
                 <p class="text-xs font-medium text-coolGray-500">#NAMA#</p>
+                <p class="text-xs font-medium text-coolGray-500">#NOHP#</p>
             </div>
         </div>
     </th>
@@ -18,6 +19,7 @@ export let isiTabel = `
         <div class="w-auto p-2">
         <p class="text-xs font-semibold text-coolGray-800">#MATAKULIAH#</p>
         <p class="text-xs font-medium text-coolGray-500">#DOSEN#</p>
+        <p class="text-xs font-medium text-coolGray-500">#NOHPD#</p>
         </div>
     </th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#HADIR#</th>
