@@ -15,6 +15,7 @@ function isiRow(value) {
     .replace("#NOHPD#", value.kategori.pengampu.phonenumberd)
     .replace("#JAMMASUK#", value.kategori.jadwal ? value.kategori.jadwal.jammasuk : "#JAMMASUK#")
     .replace("#JAMKELUAR#", value.kategori.jadwal.jamkeluar)
+    .replace("#JAMKELUAR#", value.kategori.jadwal.hari)
     .replace("#HADIR#", value.absensi.jumlahkehadiran)
     .replace("#TUGAS1#", value.alltugas.tugas1)
     .replace("#TUGAS2#", value.alltugas.tugas2)
