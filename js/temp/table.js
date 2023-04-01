@@ -22,6 +22,12 @@ export let isiTabel = `
         <p class="text-xs font-medium text-coolGray-500">#NOHPD#</p>
         </div>
     </th>
+        <th class="whitespace-nowrap px-4 bg-white text-left">
+        <div class="w-auto p-2">
+        <p class="text-xs font-semibold text-coolGray-800">#JAMMASUK#</p>
+        <p class="text-xs font-medium text-coolGray-500">#JAMKELUAR#</p>
+        </div>
+    </th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#HADIR#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#TUGAS1#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-500 text-left">#TUGAS2#</th>
